@@ -185,10 +185,10 @@ async def _(event):
         await event.edit("يجب الدفع لاستعمال هذا الامر !")
 
 
-# كلايم عدد نوع قناة
+# ا عدد نوع قناة
 
 
-@sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.كلايم (.*)"))
+@sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ا (.*)"))
 async def _(event):
     if ispay2[0] == "yes":
         isclaim.clear()
@@ -199,13 +199,13 @@ async def _(event):
         trys = 0
         await event.edit(f"حسناً سأفحص نوع `{choice}` من اليوزرات على `{ch}` , بعدد `{msg[0]}` من المحاولات !")
 
-        @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.حالة الكلايم"))
+        @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.حالة م"))
         async def _(event):
             if ispay2[0] == "yes":
                 if "on" in isclaim:
-                    await event.edit(f"الكلايم وصل لـ({trys}) من المحاولات")
+                    await event.edit(f"الصيد وصل لـ({trys}) من المحاولات")
                 elif "off" in isclaim:
-                    await event.edit("لايوجد كلايم شغال !")
+                    await event.edit("لايوجد صيد شغال !")
                 else:
                     await event.edit("خطأ")
             else:
