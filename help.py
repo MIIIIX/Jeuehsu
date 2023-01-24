@@ -8,9 +8,9 @@ commands = '''
 soursce = '''
 `- -- -- -- -- -- -- -- --`
 **Sedthon source is working ⚡
-Dev : 𝙩𝙤𝙥𝙖𝙘
-Dev : @S_Y_V
-Source Ch : @N1111V**
+Dev : Mix
+Dev : @P_T_I 
+Source Ch : @PP_VW**
 `-- -- -- -- -- -- -- -- --`
 '''
 trans = '''
